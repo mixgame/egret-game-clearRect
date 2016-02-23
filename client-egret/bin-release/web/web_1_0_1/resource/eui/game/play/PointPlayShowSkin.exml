@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PointPlayShowSkin" width="480" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_pointBar_bg" verticalCenter="0" left="0"/>
+	<e:Image id="pointBar" source="ui_pointBar_bar" x="15" y="11"/>
+	<e:Image source="ui_pointBar_top" left="0" verticalCenter="0"/>
+	<e:Image id="img_1" x="115" source="ui_pass_starIcon" verticalCenter="0"/>
+	<e:Image id="img_2" x="233" source="ui_pass_starIcon" verticalCenter="0"/>
+	<e:Image id="img_3" x="303" verticalCenter="0" source="ui_pass_starIcon"/>
+	<e:BitmapLabel id="point" text="123" font="number_fnt" scaleX="0.4" scaleY="0.4" right="24" verticalCenter="0"/>
+</e:Skin>

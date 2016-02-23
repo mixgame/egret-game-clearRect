@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BalanceMainSkin" width="420" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ui_pass_mainBg" scale9Grid="26,48,16,51" locked="true"/>
+	<e:Image source="ui_user_glodbg_top" scale9Grid="10,9,90,16" left="12" right="12" top="50" bottom="12" locked="true"/>
+	<e:Button id="rePlayBtn" bottom="16" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="balance_rePlay" source.down="balance_rePlay" source.disabled="balance_rePlay"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="nextPassBtn" bottom="16" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tips_json.balance_next" source.down="tips_json.balance_next" source.disabled="tips_json.balance_next"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="exitBtn" width="30" height="30" right="15" top="14">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_windows_close" source.down="ui_windows_close" source.disabled="ui_windows_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="passIsSuc" text="过关" textColor="0x0A0606" horizontalCenter="0" top="16"/>
+	<e:Image id="star_1" source="ui_pass_starIcon" x="46" y="138"/>
+	<e:Image id="star_2" source="ui_pass_starIcon" y="138" x="94"/>
+	<e:Image id="star_3" source="ui_pass_unstarIcon" x="142" y="138" height="40"/>
+	<e:BitmapLabel id="pointBit" font="number_fnt" text="12345678" horizontalCenter="0" top="80"/>
+	<e:Image source="ui_user_goldIcon" bottom="83" left="263"/>
+	<e:BitmapLabel id="goldBit" font="number_fnt" text="0" left="306" bottom="82"/>
+</e:Skin>

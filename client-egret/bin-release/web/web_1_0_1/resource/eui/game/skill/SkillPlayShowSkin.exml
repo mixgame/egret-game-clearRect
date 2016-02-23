@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillPlayShowSkin" width="480" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<ns1:SkillBtn id="skillBtn_1" label="相邻交换" x="7" skinName="SkillBtnSkin" icon="star_rect_1"/>
+	<ns1:SkillBtn id="skillBtn_2" label="单个变色" skinName="SkillBtnSkin" x="100" icon="star_rect_2"/>
+	<ns1:SkillBtn id="skillBtn_3" label="重新排列" skinName="SkillBtnSkin" x="194" icon="star_rect_3"/>
+	<ns1:SkillBtn id="skillBtn_4" label="增加步数" skinName="SkillBtnSkin" x="287" icon="star_rect_4"/>
+	<ns1:SkillBtn id="skillBtn_5" label="重置冷却" skinName="SkillBtnSkin" x="380" icon="star_rect_5"/>
+</e:Skin>

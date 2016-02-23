@@ -1,0 +1,40 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "3.0.2",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "Tween"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "dcagent",
+			"path": "D:/EgretGame/modules/dcagent"
+		},
+		{
+			"name": "leanCloud",
+			"path": "D:/EgretGame/modules/leanCloud"
+		},
+		{
+			"name": "nest",
+			"path": "D:/EgretGame/modules/nest/libsrc"
+		}
+	]
+}

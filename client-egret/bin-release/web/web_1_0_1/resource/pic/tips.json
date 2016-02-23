@@ -1,0 +1,5 @@
+{"file":"tips.png","frames":{
+"passMain_start":{"x":1,"y":1,"w":168,"h":60,"offX":0,"offY":0,"sourceW":168,"sourceH":60},
+"balance_rePlay":{"x":1,"y":175,"w":131,"h":48,"offX":0,"offY":0,"sourceW":131,"sourceH":48},
+"loading_login":{"x":1,"y":125,"w":131,"h":48,"offX":0,"offY":0,"sourceW":131,"sourceH":48},
+"passMain_notStart":{"x":1,"y":63,"w":168,"h":60,"offX":0,"offY":0,"sourceW":168,"sourceH":60}}}

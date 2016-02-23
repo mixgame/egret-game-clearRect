@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassClickBtnSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="63" height="67">
+	<e:Image id="clickBg" source="ui_starOneBg_0"/>
+	<e:Image id="rankIcon" source="ui_pass_cupIcon1" x="4" y="-23" visible="false"/>
+	<e:BitmapLabel id="passIndex" font="number_fnt" text="100" horizontalCenter="0" top="12" scaleX="0.6" scaleY="0.6"/>
+	<e:Image id="star_1" source="ui_pass_starIcon" x="3" y="35" scaleX="0.5" scaleY="0.5"/>
+	<e:Image id="star_2" source="ui_pass_starIcon" y="42" scaleY="0.5" x="21" scaleX="0.5"/>
+	<e:Image id="star_3" source="ui_pass_starIcon" y="35" scaleY="0.5" scaleX="0.5" x="39"/>
+</e:Skin>

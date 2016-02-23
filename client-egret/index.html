@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/Tween/Tween.js" src-release="libs/modules/Tween/Tween.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/dcagent/dcagent.js" src-release="libs/modules/dcagent/dcagent.min.js"></script>
+	<script egret="lib" src="libs/modules/leanCloud/leanCloud.js" src-release="libs/modules/leanCloud/leanCloud.min.js"></script>
+	<script egret="lib" src="libs/modules/nest/nest.js" src-release="libs/modules/nest/nest.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/class/MixGame.js"></script>
+	<script egret="game" src="bin-debug/class/MixGameSound.js"></script>
+	<script egret="game" src="bin-debug/class/MixGameUser.js"></script>
+	<script egret="game" src="bin-debug/class/MixPlayerData.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/script/boss/BossBase.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_1.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_10.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_11.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_12.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_2.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_3.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_4.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_5.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_6.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_7.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_8.js"></script>
+	<script egret="game" src="bin-debug/script/boss/boss_9.js"></script>
+	<script egret="game" src="bin-debug/script/game_skill_1.js"></script>
+	<script egret="game" src="bin-debug/script/pass/PassBase.js"></script>
+	<script egret="game" src="bin-debug/script/pass/pass_1.js"></script>
+	<script egret="game" src="bin-debug/script/pass/pass_2.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/view/config/GameConfig.js"></script>
+	<script egret="game" src="bin-debug/view/game/fight/MonsterFightShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/gameData/SkillDataGather.js"></script>
+	<script egret="game" src="bin-debug/view/game/GameEff.js"></script>
+	<script egret="game" src="bin-debug/view/game/GameLoading.js"></script>
+	<script egret="game" src="bin-debug/view/game/GameView.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/GameHome.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PassClickBtn.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PassItemRenderer.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PassMonster.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PassSelectShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PassStarMain.js"></script>
+	<script egret="game" src="bin-debug/view/game/home/PlayerDataShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/LeadView.js"></script>
+	<script egret="game" src="bin-debug/view/game/play/BalanceMain.js"></script>
+	<script egret="game" src="bin-debug/view/game/play/GamePlay.js"></script>
+	<script egret="game" src="bin-debug/view/game/play/PointPlayShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/play/TaskOne.js"></script>
+	<script egret="game" src="bin-debug/view/game/play/TaskPlayShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/shop/ShopGoods.js"></script>
+	<script egret="game" src="bin-debug/view/game/shop/ShopMain.js"></script>
+	<script egret="game" src="bin-debug/view/game/skill/SkillBtn.js"></script>
+	<script egret="game" src="bin-debug/view/game/skill/SkillChangeColorShow.js"></script>
+	<script egret="game" src="bin-debug/view/game/skill/SkillPlayShow.js"></script>
+	<script egret="game" src="bin-debug/view/star/PosOne.js"></script>
+	<script egret="game" src="bin-debug/view/star/StarOneBase.js"></script>
+	<script egret="game" src="bin-debug/view/star/StarOne.js"></script>
+	<script egret="game" src="bin-debug/view/star/StarView.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <script>
+        egret.runEgret();
+    </script>
+</body>
+</html>

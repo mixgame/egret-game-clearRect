@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassSelectShowSkin" width="480" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="passListScroll" width="480" horizontalCenter="0" top="0" bottom="0">
+		<e:Group>
+			<e:List id="passList" y="9" itemRendererSkinName="PassItemRendererSkin" itemRenderer="PassItemRenderer" horizontalCenter="0" allowMultipleSelection="false">
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object label="数据1"/>
+						<e:Object label="数据2"/>
+						<e:Object label="数据3"/>
+					</e:Array>
+				</e:ArrayCollection>
+				<e:layout>
+					<e:VerticalLayout gap="0" paddingBottom="30" paddingTop="100" verticalAlign="middle"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

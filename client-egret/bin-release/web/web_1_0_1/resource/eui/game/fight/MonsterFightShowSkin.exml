@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonsterFightShowSkin" width="480" height="160" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="open_bg_main_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="star_monster_5" x="289" y="22"/>
+	<e:Image source="star_monster_4" x="123" y="26"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillChangeColorShowSkin" width="200" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="changeColor_1" x="8" source="star_monster_1" scaleX="0.5" scaleY="0.5" y="3"/>
+	<e:Image source="star_monster_1" x="56" scaleX="0.5" scaleY="0.5" id="changeColor_2" y="3"/>
+	<e:Image source="star_monster_1" x="103" scaleX="0.5" scaleY="0.5" id="changeColor_3" y="3"/>
+	<e:Image source="star_monster_1" x="150" scaleX="0.5" scaleY="0.5" id="changeColor_4" y="3"/>
+</e:Skin>

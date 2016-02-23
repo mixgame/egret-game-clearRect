@@ -1,0 +1,120 @@
+{
+  "skins": {
+    "eui.Button": "resource/eui_skins/ButtonSkin.exml",
+    "eui.CheckBox": "resource/eui_skins/CheckBoxSkin.exml",
+    "eui.HScrollBar": "resource/eui_skins/HScrollBarSkin.exml",
+    "eui.HSlider": "resource/eui_skins/HSliderSkin.exml",
+    "eui.Panel": "resource/eui_skins/PanelSkin.exml",
+    "eui.TextInput": "resource/eui_skins/TextInputSkin.exml",
+    "eui.ProgressBar": "resource/eui_skins/ProgressBarSkin.exml",
+    "eui.RadioButton": "resource/eui_skins/RadioButtonSkin.exml",
+    "eui.Scroller": "resource/eui_skins/ScrollerSkin.exml",
+    "eui.ToggleSwitch": "resource/eui_skins/ToggleSwitchSkin.exml",
+    "eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
+    "eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "resource/eui/game/fight/MonsterFightShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"MonsterFightShowSkin\" width=\"480\" height=\"160\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image source=\"open_bg_main_png\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image source=\"star_monster_5\" x=\"289\" y=\"22\"/>\n\t<e:Image source=\"star_monster_4\" x=\"123\" y=\"26\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/GameLoadingBarSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameLoadingBarSkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" width=\"300\" height=\"40\">\n\t<e:Image source=\"ui_loading_barBg\" x=\"33\" y=\"2\"/>\n\t<e:Image id=\"thumb\" y=\"11\" left=\"41\" source=\"ui_loading_bar\" right=\"33\"/>\n\t<e:Label id=\"labelDisplay\" text=\"标签\" horizontalCenter=\"0\" size=\"14\" y=\"14\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/GameLoadingSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameLoadingSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"loading_bg_top_png\" scale9Grid=\"8,8,93,18\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Image source=\"logo_png\" horizontalCenter=\"0\" top=\"0\" width=\"600\" height=\"600\"/>\n\t<e:ProgressBar id=\"loadingBar\" skinName=\"GameLoadingBarSkin\" horizontalCenter=\"0\" bottom=\"100\"/>\n\t<e:Button id=\"loginBtn\" horizontalCenter=\"0\" bottom=\"40\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"loading_login_png\" source.down=\"loading_login_png\" source.disabled=\"loading_login_png\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/GameOverSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameOverSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\"></e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/GameViewSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameViewSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PassSelectShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PassSelectShowSkin\" width=\"480\" height=\"600\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Scroller id=\"passListScroll\" width=\"480\" horizontalCenter=\"0\" top=\"0\" bottom=\"0\">\n\t\t<e:Group>\n\t\t\t<e:List id=\"passList\" y=\"9\" itemRendererSkinName=\"PassItemRendererSkin\" itemRenderer=\"PassItemRenderer\" horizontalCenter=\"0\" allowMultipleSelection=\"false\">\n\t\t\t\t<e:ArrayCollection>\n\t\t\t\t\t<e:Array>\n\t\t\t\t\t\t<e:Object label=\"数据1\"/>\n\t\t\t\t\t\t<e:Object label=\"数据2\"/>\n\t\t\t\t\t\t<e:Object label=\"数据3\"/>\n\t\t\t\t\t</e:Array>\n\t\t\t\t</e:ArrayCollection>\n\t\t\t\t<e:layout>\n\t\t\t\t\t<e:VerticalLayout gap=\"0\" paddingBottom=\"30\" paddingTop=\"100\" verticalAlign=\"middle\"/>\n\t\t\t\t</e:layout>\n\t\t\t</e:List>\n\t\t</e:Group>\n\t</e:Scroller>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PlayerDataShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PlayerDataShowSkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" width=\"460\" height=\"44\">\n\t<e:Image id=\"actIcon\" source=\"ui_json.ui_user_infoAct\" verticalCenter=\"0\" horizontalCenter=\"-155\"/>\n\t<e:Image id=\"dimIcon\" source=\"ui_json.ui_user_infoDim\" verticalCenter=\"2.5\" horizontalCenter=\"155.5\"/>\n\t<e:Image id=\"goldIcon\" source=\"ui_json.ui_user_infoGold\" verticalCenter=\"0\" horizontalCenter=\"0\"/>\n\t<e:Label id=\"actBit\" text=\"30/30\" x=\"40\" y=\"15\" size=\"18\" width=\"72\" textAlign=\"center\" touchEnabled=\"false\"/>\n\t<e:Label id=\"dimBit\" size=\"18\" text=\"88888888\" width=\"80\" horizontalCenter=\"2\" verticalCenter=\"2\" height=\"18\" textAlign=\"center\" touchEnabled=\"false\"/>\n\t<e:Label id=\"goldBit\" size=\"18\" text=\"8888888\" width=\"75\" right=\"34\" verticalCenter=\"2\" textAlign=\"center\" touchEnabled=\"false\"/>\n\t<e:BitmapLabel id=\"starBit\" text=\"1234\" font=\"number_fnt\" scaleX=\"0.5\" scaleY=\"0.5\" x=\"248\" y=\"11\" visible=\"false\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/GameHomeSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameHomeSkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"ui_passOneShow_png\" scale9Grid=\"24,57,175,94\"/>\n\t<e:Image source=\"ui_user_glodbg_top\" scale9Grid=\"13,11,82,13\" left=\"10\" right=\"10\" top=\"10\" bottom=\"14\" visible=\"false\"/>\n\t<ns1:PassSelectShow id=\"passSelectShow\" skinName=\"PassSelectShowSkin\" top=\"10\" bottom=\"16\" horizontalCenter=\"0\" locked=\"true\"/>\n\t<e:Button id=\"gamePlayBtn\" horizontalCenter=\"0\" width=\"200\" height=\"60\" bottom=\"10\" visible=\"false\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"star_rect_4\" source.down=\"star_rect_4\" source.disabled=\"star_rect_4\"/>\n\t\t\t\t<e:Label id=\"labelDisplay0\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<ns1:PlayerDataShow id=\"playerDataShow\" skinName=\"PlayerDataShowSkin\" top=\"8\" horizontalCenter=\"0\" locked=\"true\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PassClickBtnSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PassClickBtnSkin\" states=\"up,down,disabled\"\n        xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" width=\"63\" height=\"67\">\n\t<e:Image id=\"clickBg\" source=\"ui_starOneBg_0\"/>\n\t<e:Image id=\"rankIcon\" source=\"ui_pass_cupIcon1\" x=\"4\" y=\"-23\" visible=\"false\"/>\n\t<e:BitmapLabel id=\"passIndex\" font=\"number_fnt\" text=\"100\" horizontalCenter=\"0\" top=\"12\" scaleX=\"0.6\" scaleY=\"0.6\"/>\n\t<e:Image id=\"star_1\" source=\"ui_pass_starIcon\" x=\"3\" y=\"35\" scaleX=\"0.5\" scaleY=\"0.5\"/>\n\t<e:Image id=\"star_2\" source=\"ui_pass_starIcon\" y=\"42\" scaleY=\"0.5\" x=\"21\" scaleX=\"0.5\"/>\n\t<e:Image id=\"star_3\" source=\"ui_pass_starIcon\" y=\"35\" scaleY=\"0.5\" scaleX=\"0.5\" x=\"39\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PassItemRendererSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PassItemRendererSkin\" width=\"400\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:ns1=\"*\" height=\"40\">\n\t<ns1:PassClickBtn id=\"clickBtn\" label=\"按钮\" x=\"19\" skinName=\"PassClickBtnSkin\" verticalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PassMonsterSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PassMonsterSkin\" states=\"up,down,disabled\" width=\"160\" height=\"160\"\n        xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"bgImg\" source=\"ui_starOneBg_1\" scale9Grid=\"15,14,34,32\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" locked=\"true\"/>\n\t<e:Image id=\"iconDisplay\" source=\"star_monster_3\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t<e:Group id=\"unlock\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\">\n\t\t<e:Image source=\"notClickImg_png\" left=\"5\" right=\"4\" top=\"4\" bottom=\"15\"/>\n\t\t<e:Image source=\"ui_pass_starIcon\" x=\"23\" y=\"44\"/>\n\t\t<e:BitmapLabel id=\"unlockBit\" x=\"66\" y=\"47\" font=\"number_fnt\" text=\"123\"/>\n\t\t<e:Label text=\"解锁\" x=\"45\" y=\"91\" bold=\"true\" size=\"36\"/>\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/home/PassStartMainSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PassStartMainSkin\" width=\"360\" height=\"360\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"ui_pass_mainBg\" scale9Grid=\"26,52,18,55\"/>\n\t<e:Image source=\"ui_user_glodbg_top\" left=\"12\" right=\"12\" top=\"51\" bottom=\"12\" scale9Grid=\"15,15,80,5\"/>\n\t<e:Button id=\"startBtn\" bottom=\"32\" horizontalCenter=\"0\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"passMain_start\" source.down=\"passMain_start\" source.disabled=\"passMain_start\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Button id=\"exitBtn\" top=\"10\" width=\"40\" height=\"40\" right=\"10\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_windows_close\" source.down=\"ui_windows_close\" source.disabled=\"ui_windows_close\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Label id=\"idLabel\" text=\"第x关\" top=\"14\" horizontalCenter=\"0\" textColor=\"0x000000\"/>\n\t<e:Label x=\"120\" y=\"218\" textColor=\"0x100101\" text=\"关卡介绍\"/>\n\t<e:Image id=\"star_1\" x=\"77\" y=\"132\" source=\"ui_pass_starIcon\"/>\n\t<e:Image id=\"star_2\" source=\"ui_pass_unstarIcon\" x=\"163\" y=\"132\"/>\n\t<e:Image id=\"star_3\" source=\"ui_pass_unstarIcon\" x=\"249\" y=\"132\"/>\n\t<e:BitmapLabel id=\"pointMaxBit\" font=\"number_fnt\" text=\"123456\" horizontalCenter=\"0\" top=\"78\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/play/BalanceMainSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"BalanceMainSkin\" width=\"300\" height=\"420\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"ui_passSelectMainBg_png\" scale9Grid=\"64,55,146,114\" locked=\"true\"/>\n\t<e:Button id=\"rePlayBtn\" label=\"再来\" x=\"38\" y=\"341\" width=\"100\" height=\"39\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_user_playerIcon\" source.down=\"ui_user_playerIcon\" source.disabled=\"ui_user_playerIcon\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Button x=\"165\" y=\"341\" label=\"下一关\" id=\"nextPassBtn\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_user_playerIcon\" source.down=\"ui_user_playerIcon\" source.disabled=\"ui_user_playerIcon\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Button id=\"exitBtn\" y=\"-2\" x=\"215\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_windows_close\" source.down=\"ui_windows_close\" source.disabled=\"ui_windows_close\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Label id=\"passIsSuc\" text=\"过关\" x=\"110\" y=\"10\"/>\n\t<e:Image source=\"ui_pass_starIcon\" x=\"31\" y=\"156\"/>\n\t<e:Image source=\"ui_pass_starIcon\" y=\"154\" x=\"73\"/>\n\t<e:Image source=\"ui_pass_unstarIcon\" x=\"53\" y=\"162\"/>\n\t<e:BitmapLabel id=\"pointBit\" font=\"number_fnt\" text=\"12345678\" horizontalCenter=\"0\" top=\"80\"/>\n\t<e:Image source=\"ui_user_goldIcon\" bottom=\"110\" left=\"46\"/>\n\t<e:BitmapLabel id=\"getGold\" font=\"number_fnt\" text=\"0\" left=\"98\" bottom=\"109\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/skill/SkillBtnSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"SkillBtnSkin\" states=\"up,down,disabled\" width=\"90\" height=\"110\"\n        xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"iconDisplay\" horizontalCenter=\"0\" source=\"star_rect_1\" top=\"7\"/>\n\t<e:BitmapLabel x=\"53\" y=\"59\" font=\"number_fnt\" text=\"11\" scaleX=\"0.8\" scaleY=\"0.8\"/>\n\t<e:Image source=\"notClickImg_png\" width=\"90\" x=\"0\" height=\"47\" y=\"43\" locked=\"true\" visible=\"false\"/>\n\t<e:Label id=\"labelDisplay\" text=\"标签\" size=\"22\" bold=\"true\" horizontalCenter=\"0\" top=\"85\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/skill/SkillPlayShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"SkillPlayShowSkin\" width=\"480\" height=\"80\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:ns1=\"*\">\n\t<ns1:SkillBtn id=\"skillBtn_1\" label=\"相邻交换\" x=\"7\" skinName=\"SkillBtnSkin\" icon=\"star_rect_1\"/>\n\t<ns1:SkillBtn id=\"skillBtn_2\" label=\"单个变色\" skinName=\"SkillBtnSkin\" x=\"100\" icon=\"star_rect_2\"/>\n\t<ns1:SkillBtn id=\"skillBtn_3\" label=\"重新排列\" skinName=\"SkillBtnSkin\" x=\"194\" icon=\"star_rect_3\"/>\n\t<ns1:SkillBtn id=\"skillBtn_4\" label=\"增加步数\" skinName=\"SkillBtnSkin\" x=\"287\" icon=\"star_rect_4\"/>\n\t<ns1:SkillBtn id=\"skillBtn_5\" label=\"重置冷却\" skinName=\"SkillBtnSkin\" x=\"380\" icon=\"star_rect_5\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/play/TaskOneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"TaskOneSkin\" states=\"up,down,disabled\" width=\"90\" height=\"90\"\n        xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_user_glodbg_top\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" scale9Grid=\"7,7,95,20\"/>\n\t<e:Image id=\"iconDisplay\" source=\"star_monster_3\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t<e:BitmapLabel id=\"taskNumber\" font=\"number_fnt\" text=\"12\" right=\"4\" bottom=\"2\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/play/TaskPlayShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"TaskPlayShowSkin\" width=\"480\" height=\"200\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_homeBg_top\" horizontalCenter=\"0\" top=\"0\"/>\n\t<e:Image source=\"ui_homeBg_bot\" horizontalCenter=\"0\" bottom=\"0\"/>\n\t<e:Label text=\"关卡提示/剧情介绍\" x=\"36\" y=\"25\"/>\n\t<ns1:TaskOne id=\"task_1\" x=\"16\" icon=\"star_monster_3\" skinName=\"TaskOneSkin\" scaleX=\"0.8\" scaleY=\"0.8\" bottom=\"20\">\n\t</ns1:TaskOne>\n\t<ns1:TaskOne id=\"task_2\" skinName=\"TaskOneSkin\" x=\"104\" icon=\"star_monster_2\" scaleX=\"0.8\" scaleY=\"0.8\" bottom=\"20\"/>\n\t<ns1:TaskOne id=\"task_3\" skinName=\"TaskOneSkin\" x=\"193\" icon=\"star_monster_4\" scaleX=\"0.8\" scaleY=\"0.8\" bottom=\"20\"/>\n\t<ns1:TaskOne id=\"task_4\" skinName=\"TaskOneSkin\" x=\"281\" icon=\"star_monster_5\" scaleX=\"0.8\" scaleY=\"0.8\" bottom=\"20\"/>\n\t<e:BitmapLabel id=\"stepLeave\" text=\"32\" font=\"number_fnt\" right=\"30\" bottom=\"30\"/>\n\t<e:Image right=\"14\" top=\"14\" source=\"ui_json.ui_play_stop\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/star/StarViewSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"StarViewSkin\" width=\"480\" height=\"480\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_homeBg_center\" left=\"0\" right=\"0\" top=\"0\" bottom=\"30\" locked=\"true\"/>\n\t<e:Image source=\"ui_homeBg_bot\" left=\"0\" right=\"0\" bottom=\"0\" height=\"160\" locked=\"true\"/>\n\t<e:Image source=\"ui_homeBg_top\" left=\"0\" right=\"0\" top=\"-40\" locked=\"true\"/>\n\t<e:Image source=\"ui_starViewBg\" width=\"450\" height=\"450\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t<e:Group id=\"StarBox\" scrollEnabled=\"true\" width=\"450\" height=\"450\" horizontalCenter=\"0\" verticalCenter=\"0\">\n\t</e:Group>\n\t<e:Group id=\"PosBox\" touchChildren=\"false\" touchEnabled=\"false\" scrollEnabled=\"true\" width=\"450\" height=\"450\" horizontalCenter=\"0\" verticalCenter=\"0\">\n\t</e:Group>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/play/PointPlayShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PointPlayShowSkin\" width=\"480\" height=\"40\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_pointBar_bg\" verticalCenter=\"0\" left=\"0\"/>\n\t<e:Image id=\"pointBar\" source=\"ui_pointBar_bar\" x=\"15\" y=\"11\"/>\n\t<e:Image source=\"ui_pointBar_top\" left=\"0\" verticalCenter=\"0\"/>\n\t<e:Image id=\"img_1\" x=\"115\" source=\"ui_pass_starIcon\" verticalCenter=\"0\"/>\n\t<e:Image id=\"img_2\" x=\"233\" source=\"ui_pass_starIcon\" verticalCenter=\"0\"/>\n\t<e:Image id=\"img_3\" x=\"303\" verticalCenter=\"0\" source=\"ui_pass_starIcon\"/>\n\t<e:BitmapLabel id=\"point\" text=\"123\" font=\"number_fnt\" scaleX=\"0.4\" scaleY=\"0.4\" right=\"24\" verticalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/play/GamePlaySkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GamePlaySkin\" width=\"480\" height=\"800\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<ns1:SkillPlayShow id=\"skillPlayShow\" skinName=\"SkillPlayShowSkin\" bottom=\"0\" horizontalCenter=\"0\"/>\n\t<ns1:TaskPlayShow id=\"taskPlayShow\" skinName=\"TaskPlayShowSkin\" horizontalCenter=\"0\" top=\"0\"/>\n\t<e:Image id=\"useSkillBg\" source=\"notClickImg_png\" right=\"-10\" left=\"-10\" top=\"-10\" bottom=\"-10\" locked=\"true\"/>\n\t<e:Button id=\"cancelBtn\" label=\"取消\" x=\"181\" y=\"736\" width=\"120\" height=\"40\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_user_playerIcon\" source.down=\"ui_user_playerIcon\" source.disabled=\"ui_user_playerIcon\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<ns1:StarView id=\"starView\" skinName=\"StarViewSkin\" horizontalCenter=\"0\" top=\"240\"/>\n\t<ns1:PointPlayShow id=\"pointPlayShow\" skinName=\"PointPlayShowSkin\" horizontalCenter=\"0\" top=\"210\" touchChildren=\"false\" touchEnabled=\"false\"/>\n\t<ns1:BalanceMain id=\"balanceMain\" skinName=\"BalanceMainSkin\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/shop/ShopGoodsSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"ShopGoodsSkin\" width=\"340\" height=\"80\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_homeBg_center\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<e:Button id=\"buyBtn\" label=\"购买\" verticalCenter=\"16\" right=\"10\" width=\"88\" height=\"22\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_user_glodbg_top\" source.down=\"ui_user_glodbg_top\" source.disabled=\"ui_user_glodbg_top\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n\t<e:Label text=\"物品名字\" x=\"109\" y=\"29\" size=\"22\"/>\n\t<e:Label y=\"14\" size=\"22\" text=\"10元\" x=\"258\"/>\n\t<e:Image source=\"ui_user_dimIcon\" x=\"35\" y=\"22\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/shop/DimShopMainSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"DimShopMainSkin\" width=\"400\" height=\"400\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:ns1=\"*\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"ui_passOneShow_png\" scale9Grid=\"67,61,129,82\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t<ns1:ShopGoods x=\"29\" y=\"116\" skinName=\"ShopGoodsSkin\"/>\n\t<ns1:ShopGoods y=\"201\" skinName=\"ShopGoodsSkin\" x=\"29\"/>\n\t<ns1:ShopGoods y=\"286\" skinName=\"ShopGoodsSkin\" x=\"29\"/>\n\t<e:Button id=\"closeBtn\" x=\"335\" y=\"9\">\n\t\t<e:skinName>\n\t\t\t<e:Skin states=\"up,down,disabled\">\n\t\t\t\t<e:Image width=\"100%\" height=\"100%\" source=\"ui_windows_close\" source.down=\"ui_windows_close\" source.disabled=\"ui_windows_close\"/>\n\t\t\t\t<e:Label id=\"labelDisplay\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n\t\t\t</e:Skin>\n\t\t</e:skinName>\n\t</e:Button>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/game/skill/SkillChangeColorShowSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"SkillChangeColorShowSkin\" width=\"200\" height=\"60\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"changeColor_1\" x=\"8\" source=\"star_monster_1\" scaleX=\"0.5\" scaleY=\"0.5\" y=\"3\"/>\n\t<e:Image source=\"star_monster_1\" x=\"56\" scaleX=\"0.5\" scaleY=\"0.5\" id=\"changeColor_2\" y=\"3\"/>\n\t<e:Image source=\"star_monster_1\" x=\"103\" scaleX=\"0.5\" scaleY=\"0.5\" id=\"changeColor_3\" y=\"3\"/>\n\t<e:Image source=\"star_monster_1\" x=\"150\" scaleX=\"0.5\" scaleY=\"0.5\" id=\"changeColor_4\" y=\"3\"/>\n</e:Skin>"
+    },
+    {
+      "path": "resource/eui/star/PosOneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PosOneSkin\" states=\"up,down,disabled\" width=\"70\" height=\"70\"\n        xmlns:e=\"http://ns.egret.com/eui\"></e:Skin>"
+    },
+    {
+      "path": "resource/eui/star/StarOneSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"StarOneSkin\" states=\"up,down,disabled\" width=\"45\" height=\"45\"\n        xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"starImg\" verticalCenter=\"0\" horizontalCenter=\"0\" source=\"star_monster_5\" scaleX=\"0.5\" scaleY=\"0.5\"/>\n\t<e:Label id=\"idText\" text=\"标签\" x=\"4\" y=\"4\" size=\"18\" visible=\"false\"/>\n\t<e:Image id=\"notClickImg\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" source=\"notClickImg_png\" visible=\"false\"/>\n</e:Skin>"
+    }
+  ]
+}

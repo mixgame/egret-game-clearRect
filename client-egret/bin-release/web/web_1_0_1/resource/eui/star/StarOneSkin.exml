@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarOneSkin" states="up,down,disabled" width="45" height="45"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="starImg" verticalCenter="0" horizontalCenter="0" source="star_monster_5" scaleX="0.5" scaleY="0.5"/>
+	<e:Label id="idText" text="标签" x="4" y="4" size="18" visible="false"/>
+	<e:Image id="notClickImg" left="0" right="0" top="0" bottom="0" source="notClickImg_png" visible="false"/>
+</e:Skin>

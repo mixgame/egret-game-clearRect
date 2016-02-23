@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BalanceMainSkin" width="300" height="420" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="ui_passSelectMainBg_png" scale9Grid="64,55,146,114" locked="true"/>
+	<e:Button id="rePlayBtn" label="再来" x="38" y="341" width="100" height="39">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_user_playerIcon" source.down="ui_user_playerIcon" source.disabled="ui_user_playerIcon"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button x="165" y="341" label="下一关" id="nextPassBtn">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_user_playerIcon" source.down="ui_user_playerIcon" source.disabled="ui_user_playerIcon"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="exitBtn" y="-2" x="215">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ui_windows_close" source.down="ui_windows_close" source.disabled="ui_windows_close"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="passIsSuc" text="过关" x="110" y="10"/>
+	<e:Image source="ui_pass_starIcon" x="31" y="156"/>
+	<e:Image source="ui_pass_starIcon" y="154" x="73"/>
+	<e:Image source="ui_pass_unstarIcon" x="53" y="162"/>
+	<e:BitmapLabel id="pointBit" font="number_fnt" text="12345678" horizontalCenter="0" top="80"/>
+	<e:Image source="ui_user_goldIcon" bottom="110" left="46"/>
+	<e:BitmapLabel id="getGold" font="number_fnt" text="0" left="98" bottom="109"/>
+</e:Skin>

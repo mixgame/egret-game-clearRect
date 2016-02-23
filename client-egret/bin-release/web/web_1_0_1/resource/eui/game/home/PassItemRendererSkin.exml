@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PassItemRendererSkin" width="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="40">
+	<ns1:PassClickBtn id="clickBtn" label="按钮" x="19" skinName="PassClickBtnSkin" verticalCenter="0"/>
+</e:Skin>

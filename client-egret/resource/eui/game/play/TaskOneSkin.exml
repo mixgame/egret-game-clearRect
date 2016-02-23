@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskOneSkin" states="up,down,disabled" width="90" height="90"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_user_glodbg_top" left="0" right="0" top="0" bottom="0" scale9Grid="7,7,95,20"/>
+	<e:Image id="iconDisplay" source="star_monster_3" horizontalCenter="0" verticalCenter="0"/>
+	<e:BitmapLabel id="taskNumber" font="number_fnt" text="12" right="4" bottom="2"/>
+</e:Skin>

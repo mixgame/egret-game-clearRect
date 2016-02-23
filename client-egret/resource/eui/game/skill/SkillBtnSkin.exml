@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SkillBtnSkin" states="up,down,disabled" width="90" height="60"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconDisplay" horizontalCenter="0" source="star_rect_1" top="0" width="66" height="58"/>
+	<e:BitmapLabel x="58" y="31" font="number_fnt" text="11" scaleX="0.8" scaleY="0.8"/>
+	<e:Image source="notClickImg_png" width="90" x="0" height="47" y="43" locked="true" visible="false"/>
+	<e:Label id="labelDisplay" text="标签" size="22" bold="true" horizontalCenter="1" top="12" textColor="0xB01919"/>
+</e:Skin>

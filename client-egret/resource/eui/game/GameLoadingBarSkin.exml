@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameLoadingBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="300" height="40">
+	<e:Image source="ui_loading_barBg" x="33" y="2"/>
+	<e:Image id="thumb" y="11" left="41" source="ui_loading_bar" right="33"/>
+	<e:Label id="labelDisplay" text="标签" horizontalCenter="0" size="14" y="14"/>
+</e:Skin>

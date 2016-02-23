@@ -1,0 +1,11 @@
+{"file":"playUI.png","frames":{
+"star_monster_1":{"x":172,"y":0,"w":81,"h":83,"offX":0,"offY":0,"sourceW":81,"sourceH":83},
+"star_monster_2":{"x":0,"y":0,"w":84,"h":83,"offX":0,"offY":0,"sourceW":84,"sourceH":83},
+"star_monster_3":{"x":88,"y":235,"w":74,"h":80,"offX":0,"offY":0,"sourceW":74,"sourceH":80},
+"star_monster_4":{"x":178,"y":167,"w":78,"h":83,"offX":0,"offY":0,"sourceW":78,"sourceH":83},
+"star_monster_5":{"x":178,"y":83,"w":78,"h":84,"offX":0,"offY":0,"sourceW":78,"sourceH":84},
+"star_rect_1":{"x":90,"y":158,"w":88,"h":77,"offX":0,"offY":0,"sourceW":88,"sourceH":77},
+"star_rect_2":{"x":84,"y":0,"w":88,"h":79,"offX":0,"offY":0,"sourceW":88,"sourceH":79},
+"star_rect_3":{"x":0,"y":158,"w":90,"h":76,"offX":0,"offY":0,"sourceW":90,"sourceH":76},
+"star_rect_4":{"x":0,"y":234,"w":88,"h":76,"offX":0,"offY":0,"sourceW":88,"sourceH":76},
+"star_rect_5":{"x":84,"y":79,"w":87,"h":79,"offX":0,"offY":0,"sourceW":87,"sourceH":79}}}

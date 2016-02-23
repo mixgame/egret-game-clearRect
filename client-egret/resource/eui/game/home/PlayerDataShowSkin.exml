@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlayerDataShowSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="460" height="44">
+	<e:Image id="actIcon" source="ui_json.ui_user_infoAct" verticalCenter="0" horizontalCenter="-155"/>
+	<e:Image id="dimIcon" source="ui_json.ui_user_infoDim" verticalCenter="2.5" horizontalCenter="155.5"/>
+	<e:Image id="goldIcon" source="ui_json.ui_user_infoGold" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="actBit" text="30/30" x="40" y="15" size="18" width="72" textAlign="center" touchEnabled="false"/>
+	<e:Label id="dimBit" size="18" text="88888888" width="80" horizontalCenter="2" verticalCenter="2" height="18" textAlign="center" touchEnabled="false"/>
+	<e:Label id="goldBit" size="18" text="8888888" width="75" right="34" verticalCenter="2" textAlign="center" touchEnabled="false"/>
+	<e:BitmapLabel id="starBit" text="1234" font="number_fnt" scaleX="0.5" scaleY="0.5" x="248" y="11" visible="false"/>
+</e:Skin>

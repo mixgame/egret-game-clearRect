@@ -1,0 +1,13 @@
+{"file":"monster.png","frames":{
+"pass_monster_img_9":{"x":229,"y":374,"w":124,"h":100,"offX":0,"offY":0,"sourceW":124,"sourceH":100},
+"pass_monster_img_10":{"x":1,"y":131,"w":111,"h":136,"offX":0,"offY":0,"sourceW":111,"sourceH":136},
+"pass_monster_img_11":{"x":135,"y":254,"w":101,"h":110,"offX":0,"offY":0,"sourceW":101,"sourceH":110},
+"pass_monster_img_12":{"x":1,"y":1,"w":139,"h":128,"offX":0,"offY":0,"sourceW":139,"sourceH":128},
+"pass_monster_img_1":{"x":1,"y":269,"w":132,"h":103,"offX":0,"offY":0,"sourceW":132,"sourceH":103},
+"pass_monster_img_2":{"x":259,"y":1,"w":118,"h":91,"offX":0,"offY":0,"sourceW":118,"sourceH":91},
+"pass_monster_img_3":{"x":142,"y":1,"w":115,"h":133,"offX":0,"offY":0,"sourceW":115,"sourceH":133},
+"pass_monster_img_4":{"x":355,"y":374,"w":119,"h":104,"offX":0,"offY":0,"sourceW":119,"sourceH":104},
+"pass_monster_img_5":{"x":1,"y":374,"w":108,"h":122,"offX":0,"offY":0,"sourceW":108,"sourceH":122},
+"pass_monster_img_6":{"x":233,"y":136,"w":126,"h":86,"offX":0,"offY":0,"sourceW":126,"sourceH":86},
+"pass_monster_img_7":{"x":111,"y":374,"w":116,"h":108,"offX":0,"offY":0,"sourceW":116,"sourceH":108},
+"pass_monster_img_8":{"x":114,"y":136,"w":117,"h":116,"offX":0,"offY":0,"sourceW":117,"sourceH":116}}}

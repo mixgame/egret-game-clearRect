@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PosOneSkin" states="up,down,disabled" width="70" height="70"
+        xmlns:e="http://ns.egret.com/eui"></e:Skin>

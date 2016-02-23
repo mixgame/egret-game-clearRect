@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskPlayShowSkin" width="480" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_homeBg_top" horizontalCenter="0" top="0"/>
+	<e:Image source="ui_homeBg_bot" horizontalCenter="0" bottom="0"/>
+	<e:Label text="关卡提示/剧情介绍" x="36" y="25"/>
+	<ns1:TaskOne id="task_1" x="16" icon="star_monster_3" skinName="TaskOneSkin" scaleX="0.8" scaleY="0.8" bottom="20">
+	</ns1:TaskOne>
+	<ns1:TaskOne id="task_2" skinName="TaskOneSkin" x="104" icon="star_monster_2" scaleX="0.8" scaleY="0.8" bottom="20"/>
+	<ns1:TaskOne id="task_3" skinName="TaskOneSkin" x="193" icon="star_monster_4" scaleX="0.8" scaleY="0.8" bottom="20"/>
+	<ns1:TaskOne id="task_4" skinName="TaskOneSkin" x="281" icon="star_monster_5" scaleX="0.8" scaleY="0.8" bottom="20"/>
+	<e:BitmapLabel id="stepLeave" text="32" font="number_fnt" right="30" bottom="30"/>
+	<e:Image right="14" top="14" source="ui_json.ui_play_stop"/>
+</e:Skin>

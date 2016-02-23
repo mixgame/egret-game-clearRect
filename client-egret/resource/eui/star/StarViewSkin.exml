@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarViewSkin" width="480" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="ui_homeBg_center" left="0" right="0" top="0" bottom="30" locked="true"/>
+	<e:Image source="ui_homeBg_bot" left="0" right="0" bottom="0" height="160" locked="true"/>
+	<e:Image source="ui_homeBg_top" left="0" right="0" top="-40" locked="true"/>
+	<e:Image source="ui_starViewBg" width="450" height="450" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="StarBox" scrollEnabled="true" width="450" height="450" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+	<e:Group id="PosBox" touchChildren="false" touchEnabled="false" scrollEnabled="true" width="450" height="450" horizontalCenter="0" verticalCenter="0">
+	</e:Group>
+</e:Skin>
